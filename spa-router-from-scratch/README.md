@@ -226,6 +226,6 @@ Ulıwmalastırıp aytqanda, 0den router jazıw imkansız nárse emes, biraq onı
 
 Bul article'diń originalı: https://blog.skay.dev/custom-spa-router-vanillajs
 Bul article tolıqlıgınsha, birge-bir nusxalanıp, awdarmalanǵanı joq. Bir jerinde ózgertildi, bir jerinde taza zatlar qosıldı.
-Router'diń tolıq kodı: github
+Router'diń tolıq kodı: https://github.com/uabdirasul/i-wrote-an-article/tree/main/spa-router-from-scratch
 
 Qáte-kemshilikler bolsa ózgertiń:)
