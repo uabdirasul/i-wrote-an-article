@@ -193,7 +193,7 @@ Endi tolıq nátiyjeni kóriw ushın ápiwayı ǵana HTML file'dı browser'de as
 Eger **/contact**ke ótip turıp sayttı jańalap jibersek (refresh) yáki **http://127.0.0.1:8080/contact** qolda jazsaq **Cannot GET /contact** degen qátelikke dus kelemiz.
 Bunnan bilip alıwǵa boladı - tek ǵana Vanilla Javascript'ten paydalanıp turıp tolıq funkciyanal bolǵan **router** jaratıw imkansız yáki qıyın:
 ![Firefox Browser](https://i.ibb.co/qnMFypX/image.png)
-Joqarıdaǵı qátelikti durıslaw ushın server kerek boladı. Ol ushın **Express**ten paydalanıwımız múmkin.
+Joqarıdaǵı qátelikti durıslaw ushın server kerek boladı. Ol ushın **Express**ten paydalanıwımız múmkin (Qáleseńiz Python Flask, ózińizge baylanıslı).
 
 1.  `npm install express`
 2.  Express server jaratıw (server.js):
