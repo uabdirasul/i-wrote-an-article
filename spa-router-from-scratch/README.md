@@ -1,7 +1,9 @@
 # 0den SPA Router
 
 Bilemiz, React, Vue, Angular sıyaqlı framework'lar óziniń tayın bolǵan feature'ları menen keledi. Olardan paydalanıp turıp [SPA](https://en.wikipedia.org/wiki/Single-page_application) lardı ańsat jaratıwımız múmkin. Sol tayın, SPA ushın zárúr feature'lardan biri bul - **router** esaplanadı.
+
 Usı jerde soraw, router ózi qaytıp jaratıladı? Heshqanday framework'sız router'dan paydalanıw múmkin ba?
+
 Usı sorawlarǵa juwap beriw máqsetinde ózlerimiz qoldan, kishkene router soǵıp kóremiz.
 
 Negizinde, router qurıw dım quramalı nárse emes. Ol tiykarınan ápiwayı [browser API](https://developer.mozilla.org/en-US/docs/Web/API/Window) larınan turadı.
@@ -169,6 +171,7 @@ Bul link basılǵanda **onNavClick** funkciyası orınlanadı hám ol funkciya r
 
 Bul funkciya route siltemesine teń bolǵan **pathname** parametrin qabıl etedi hám sol arqalı **window.history.pushState()** tan paydalanıp sayt jazıwın ózgertedi.
 Ekinshi qatardaǵı **rootDiv.innerHTML = routes[pathname]** kerekli bolǵan bettiń HTML'in kórsetiwdi buyıradı hám onday bet joq bolǵan jaǵdayda **Page Not Found** kórsetetuǵın boladı.
+
 Házir, sizde link basılǵanda sayttı ózgertpesten, jańalamastan onın kontentin ózgertetuǵın, sayt jazıwın ózgertpeytuǵın funkcional router bar.
 Biraq, ele bir problema bar. <-, -> belgiler basılǵanda sayt jazıwları ózgerip atır biraq kontentti qáte kórsetip atır. Bunı sheshiw ushın baǵanaǵı **popstate** event'inen paydalanamız:
 
@@ -191,6 +194,7 @@ Endi tolıq nátiyjeni kóriw ushın ápiwayı ǵana HTML file'dı browser'de as
 ### Kemshilik
 
 Eger **/contact**ke ótip turıp sayttı jańalap jibersek (refresh) yáki **http://127.0.0.1:8080/contact** qolda jazsaq **Cannot GET /contact** degen qátelikke dus kelemiz.
+
 Bunnan bilip alıwǵa boladı - tek ǵana Vanilla Javascript'ten paydalanıp turıp tolıq funkciyanal bolǵan **router** jaratıw imkansız yáki qıyın:
 ![Firefox Browser](https://i.ibb.co/qnMFypX/image.png)
 Joqarıdaǵı qátelikti durıslaw ushın server kerek boladı. Ol ushın **Express**ten paydalanıwımız múmkin (Qáleseńiz Python Flask, ózińizge baylanıslı).
@@ -225,7 +229,9 @@ Joqarıdaǵı qátelikti durıslaw ushın server kerek boladı. Ol ushın **Expr
 Ulıwmalastırıp aytqanda, 0den router jazıw imkansız nárse emes, biraq onı tek ǵana taza JS arqalı qılıw problema bolıwı múmkin.
 
 Bul article'diń originalı: https://blog.skay.dev/custom-spa-router-vanillajs
+
 Bul article tolıqlıgınsha, birge-bir nusxalanıp, awdarmalanǵanı joq. Bir jerinde ózgertildi, bir jerinde taza zatlar qosıldı.
+
 Router'diń tolıq kodı: https://github.com/uabdirasul/i-wrote-an-article/tree/main/spa-router-from-scratch
 
 Qáte-kemshilikler bolsa ózgertiń:)
